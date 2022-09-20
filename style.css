@@ -10,17 +10,18 @@ text-decoration: none;;
 
 .header{
     width: 100%;
-    height: 80px;
+    height: 100px;
     display: block;
     background-color: #29485E;
 }
 
 .inner_header{
     width: 1000px;
-    height: 80px;
+    height: 100px;
     display: block;
     margin: 0 auto;
     background-color: #7D98AB;
+    border-radius: 80px;
 }
 
 .logo_container{
@@ -64,8 +65,9 @@ text-decoration: none;;
 }
 
 .navigation a li:hover{
-    background-color: rgb(250, 252, 251);
-    opacity: 100%%;
+    background-color: rgb(224, 234, 244);
+    opacity: 100%;
+    border-radius: 100px;
 }
 
 .mainPage{
