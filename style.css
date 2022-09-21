@@ -12,7 +12,7 @@ text-decoration: none;;
     width: 100%;
     height: 100px;
     display: block;
-    background-color: #29485E;
+    background-color: #0A0A0A;
 }
 
 .inner_header{
@@ -20,7 +20,7 @@ text-decoration: none;;
     height: 100px;
     display: block;
     margin: 0 auto;
-    background-color: #7D98AB;
+    background-color: #0A0A0A;
     border-radius: 80px;
 }
 
@@ -33,7 +33,7 @@ text-decoration: none;;
 
 .logo_container h1{
     font-weight: 800;
-    color: #1C2226;
+    color: #B3B3B3;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
@@ -58,14 +58,14 @@ text-decoration: none;;
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    color: rgb(20, 20, 20);
+    color: #B3B3B3;
     font-family:'Montserrat';
     font-size: 16px;
 
 }
 
 .navigation a li:hover{
-    background-color: rgb(224, 234, 244);
+    background-color: rgb(248, 251, 253);
     opacity: 100%;
     border-radius: 100px;
 }
@@ -73,6 +73,6 @@ text-decoration: none;;
 .mainPage{
     height: 800px;
     display:block;
-    background-color: #A2C5DE;
+    background-color: #B3B3B3;
 }
 
