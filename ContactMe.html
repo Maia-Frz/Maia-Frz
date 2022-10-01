@@ -10,7 +10,7 @@
 	<div class="header">
 		<div class = "inner_header">
 			<div class = "logo_container">
-				<h1><span style = "position:relative; left:80px; top:2px;"> Contact Me</span></h1>
+				<h1><span style = "position:relative; left:80px; top:2px;">Contact Me</span></h1>
 			</div>
 
 			<ul class="navigation">
@@ -20,28 +20,27 @@
 				<a href = "ContactMe.html"><li>Contact Me</li></a>
 			</ul>
 
-			<form action="mailto: maiabot13@gmail.com" method="post" enctype="text/plain" name = "form">
-
-				<p>
-					<label style = "position:relative; left:50px; top:200px;" for="name">Enter your name: </label>
-					<input style = "position:relative; left:50px; top:200px;" type ="text" name = "name" size = "60">
-				</p>
-				<p>
-					<label style = "position:relative; left:50px; top:400px;" for="email">Enter your email: </label>
-					<input height: style = "position:relative; left:50px; top:400px;" type ="email" name = "email" size = "60">
-				</p>
-				<p>
-					<label style = "position:relative; left:50px; top:600px;" for="pass">Enter your password: </label>
-					<input style = "position:relative; left:50px; top:600px;" type ="password" name = "pass" size = "60">
-				</p>
-				
-			</form>
-
 		</div>
-
-		<div class = "mainPage"></div>
-	
-	</div> 
-
+	<div class = "mainPage">
+		<div style = "position:relative; left:400px; top:70px;" class="formcontainer">
+			<form action="mailto: maiabot13@email.com" ?subject="Contact" method="post" enctype="text/plain" name="form">
+		
+			<label for="name">Name</label>
+			<input type= "text" id="name" name="firstname" placeholder="Enter your name....">
+		
+			<label for="phone">Phone Number</label>
+			<input type="number" id="name" name="lastname" placeholder="Your phone number...">
+		
+			<label for="email">Email</label>
+			<input type = "email" id="email" name="email" placeholder = "Enter your email...">
+		
+			<label for="text">Comments</label>
+			<textarea id="text" name="comments" placeholder="Any comments?" style="height:200px"></textarea>
+		
+			<input type="submit" value="Submit">
+		
+			</form>
+		</div>
+	</div>
 </body>
 </html>
