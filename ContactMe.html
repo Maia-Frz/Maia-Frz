@@ -10,38 +10,40 @@
 </head>
 <body>
 	<div class = "mainPage" style = "height:100%;"> <!-- creates a class for the main page backround  -->
-		<div class="header"> <!-- creates a div class for header  -->
-				<div style = " margin-left: 20%;" class = "header_container"> <!--  creates a div class for website header container -->
-					<h1><span>Contact Me</span></h1> <!--  creates header for website contact me page -->
-						<ul style = " margin-left: 100%; margin-top: 7%;" class="navigation"> <!-- creates nav menu and pushes menu to far right   -->
-							<a href = "index.html"><li>Home</li></a> <!-- creates a hyperlink to home page  -->
-							<a href = "AboutMe.html"><li>About Me</li></a> <!-- creates hyperlink to about me page  -->
-							<a href = "Projects.html"><li>Projects</li></a> <!-- creates hyperlink to projects page  -->
-							<a href = "ContactMe.html"><li>Contact Me</li></a> <!-- creates hyperlink to contact me page  -->
-						</ul>
-				</div>
-		</div>
-	</div>
-			<div style = "margin:auto; margin-left: 25%; margin-top: 8%;"  class ="formcontainer"> <!-- creates a container for form with auto margin to center container -->
-				<form action="mailto: maiabot13@email.com" ?subject="Contact" method="post" enctype="text/plain" name="form"> <!-- when submitted the information in form is sent to specified email -->
-			
-				<label for="name">Name</label> <!-- creates label for name input section -->
-				<input type= "text" id="name" name="firstname" placeholder="Enter your name...."> <!-- creates input section for user to input their name as text-->
-			
-				<label for="phone">Phone Number</label> <!-- creates label for phone number input section -->
-				<input type="number" id="name" name="lastname" placeholder="Your phone number..."> <!-- creates input section for user to input their phone number, wont allow user to enter anything else -->
-			
-				<label for="email">Email</label> <!-- creates label for email input section -->
-				<input type = "email" id="email" name="email" placeholder = "Enter your email..."> <!-- creates input section for user to enter email and validates it -->
-			
-				<label for="text">Comments</label> <!-- label for comments input section -->
-				<textarea id="text" name="comments" placeholder="Any comments?" style="height:200px"></textarea> <!-- creates a text area for user to leave comments -->
-			
-				<input type="submit" value="Submit"> <!-- creates submit button -->
-			
-				</form>
+			<div class="header"> <!-- creates a div class for header  -->
+					<div style = " margin-left: 20%;" class = "header_container"> <!--  creates a div class for website header container -->
+						<h1><span>Contact Me</span></h1> <!--  creates header for website contact me page -->
+							<ul style = " margin-left: 100%; margin-top: 7%;" class="navigation"> <!-- creates nav menu and pushes menu to far right   -->
+								<a href = "index.html"><li>Home</li></a> <!-- creates a hyperlink to home page  -->
+								<a href = "AboutMe.html"><li>About Me</li></a> <!-- creates hyperlink to about me page  -->
+								<a href = "Projects.html"><li>Projects</li></a> <!-- creates hyperlink to projects page  -->
+								<a href = "ContactMe.html"><li>Contact Me</li></a> <!-- creates hyperlink to contact me page  -->
+							</ul>
+					</div>
 			</div>
-		</div>
-	</div>
+
+				<div style = "margin:auto; margin-left: 25%;"  class ="formcontainer"> <!-- creates a container for form with auto margin to center container -->
+					<form action="mailto: maiabot13@email.com" ?subject="Contact" method="post" enctype="text/plain" name="form"> <!-- when submitted the information in form is sent to specified email -->
+				
+					<label for="name">Name</label> <!-- creates label for name input section -->
+					<input type= "text" id="name" name="firstname" placeholder="Enter your name...."> <!-- creates input section for user to input their name as text-->
+				
+					<label for="phone">Phone Number</label> <!-- creates label for phone number input section -->
+					<input type="number" id="name" name="lastname" placeholder="Your phone number..."> <!-- creates input section for user to input their phone number, wont allow user to enter anything else -->
+				
+					<label for="email">Email</label> <!-- creates label for email input section -->
+					<input type = "email" id="email" name="email" placeholder = "Enter your email..."> <!-- creates input section for user to enter email and validates it -->
+				
+					<label for="text">Comments</label> <!-- label for comments input section -->
+					<textarea id="text" name="comments" placeholder="Any comments?" style="height:200px"></textarea> <!-- creates a text area for user to leave comments -->
+				
+					<input type="submit" value="Submit"> <!-- creates submit button -->
+				
+					</form>
+				</div>
+				<footer style = "margin-top: 43%;">
+					<p> ⓒ 2022 by Maia Frangoudis (Maiabot13@gmail.com) </p>
+				</footer>
+			</div>
 </body>
 </html>
