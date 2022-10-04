@@ -169,6 +169,7 @@ input[type=text], select, textarea {
     clear: both;
   }
 
+    /* styles gradient box p and h*/
   .gradientbox p,h2{
     color: #B3B3B3;
 
