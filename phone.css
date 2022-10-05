@@ -103,7 +103,7 @@ margin-left: 1%;
 input[type=text], select, textarea {
     width: 100%; /* full width */
     padding: 2%; /* adds padding */ 
-    border: 1% solid #B3B3B3; /* border color */
+    border: 1px solid #B3B3B3; /* border color */
     border-radius: 3%; /* rounds borders */
     box-sizing: border-box; /* keeps padding and width in place */
     margin-top: 1%; /* top marigin */
@@ -114,7 +114,7 @@ input[type=text], select, textarea {
   input[type=number], select, textarea {
     width: 100%; /* full width */
     padding: 2%; /* addspadding */ 
-    border: 1% solid #B3B3B3; /* border color */
+    border: 1px solid #B3B3B3; /* border color */
     border-radius: 1%; /* rounds borders */
     box-sizing: border-box; /* keeps padding and width in place */
     margin-top: 1%; /*top margin */
@@ -125,7 +125,7 @@ input[type=text], select, textarea {
   input[type=email], select, textarea {
     width: 100%; /* full width */
     padding: 2%; /* adds padding */ 
-    border: 1% solid #B3B3B3; /* border color */
+    border: 1px solid #B3B3B3; /* border color */
     border-radius: 1%; /* rounds borders */
     box-sizing: border-box; /* keeps padding and width in place */
     margin-top: 1%; /*top margin */
